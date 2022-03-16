@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/public/img/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Advance Generator App</title>
+  </head>
+  <body class="font-manrope bg-dark-blue">
+    <div>
+      <main class="flex flex-col h-screen justify-center">
+        <div
+          class="relative flex flex-col max-w-xs sm:max-w-lg rounded-2xl items-center justify-center mx-auto bg-d-grayish-blue px-8 space-y-6 pt-12 pb-16"
+        >
+          <h1 class="text-neon-green text-sm tracking-[.25em]">
+            ADVICE # <span id="idQuote">117</span>
+          </h1>
+          <q id="quote" class="text-[28px] text-center text-light-cyan mb-6"
+            >It is easy to sit up and take notice, what's difficult is getting
+            up and taking and taking action.</q
+          >
+          <div>
+            <img
+              src="./public/img/pattern-divider-desktop.svg"
+              alt=""
+              class="hidden sm:block"
+            />
+            <img
+              src="./public/img/pattern-divider-mobile.svg"
+              alt=""
+              class="sm:hidden"
+            />
+          </div>
+          <button
+            id="button-toggle"
+            class="circle bg-neon-green rounded-full absolute -bottom-7 hover:drop-shadow-cs"
+          >
+            <img src="public/img/icon-dice.svg" alt="" class="p-4" />
+          </button>
+        </div>
+      </main>
+    </div>
+
+    <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+
+    <script src="/public/js/script.js"></script>
+  </body>
+</html>
